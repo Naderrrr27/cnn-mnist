@@ -1,12 +1,9 @@
 import torch
 import torch.nn as nn
-import torch.nn.functional as F
 import torch.optim as optim
 from torchvision import datasets, transforms
 from torch.utils.data import DataLoader
-import matplotlib.pyplot as plt
-import numpy as np
-from model_def import CNN, MODEL_PATH, DEVICE
+from utils.model_def import CNN, MODEL_PATH, DEVICE
 
 BATCH_SIZE = 64
 EPOCHS = 5

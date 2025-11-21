@@ -3,7 +3,7 @@ import sys
 import torch
 import numpy as np
 import matplotlib.pyplot as plt
-from model_def import CNN, MODEL_PATH, DEVICE
+from utils.model_def import CNN, MODEL_PATH, DEVICE
 
 if not os.path.exists(MODEL_PATH):
     print(f"Model file '{MODEL_PATH}' not found. Please run train.py first.")

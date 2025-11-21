@@ -30,9 +30,13 @@ The visualization script shows learned filters and feature maps:
 
 ![Conv2 Feature Maps](images/conv2_features.png)
 
-## Files
+## Project Structure
 
-- `model_def.py` - CNN model definition
-- `train.py` - Training script
-- `visualize.py` - Visualization tools
-- `images/` - Visualization screenshots (filters and feature maps)
+```
+project/
+├── data/           # MNIST dataset
+├── models/         # Saved model weights
+├── train.py        # Training script
+├── visualize.py    # Visualization tools
+└── utils/          # Utility modules (model definition)
+```

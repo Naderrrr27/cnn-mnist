@@ -3,7 +3,7 @@ import torch.nn as nn
 import torch.nn.functional as F
 
 DEVICE = torch.device("cuda" if torch.cuda.is_available() else "cpu")
-MODEL_PATH = "cnn_mnist.pth"
+MODEL_PATH = "models/cnn_mnist.pth"
 
 class CNN(nn.Module):
     def __init__(self):
